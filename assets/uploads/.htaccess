@@ -1,0 +1,5 @@
+# Folder upload hanya untuk gambar & audio: matikan eksekusi script
+<FilesMatch "\.(php|phtml|phar|php\d|pl|py|cgi|sh)$">
+    Require all denied
+</FilesMatch>
+Options -ExecCGI -Indexes
